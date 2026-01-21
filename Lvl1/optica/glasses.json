@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "696e17e437d927693eada2dc"
+  },
+  "brand": "Rayban",
+  "price": 127,
+  "frameType": "metallic",
+  "graduation": {
+    "L": 2.3,
+    "R": 2
+  },
+  "glassColor": {
+    "L": null,
+    "R": null
+  },
+  "provider_id": {
+    "$oid": "696e168c37d927693eada2db"
+  },
+  "boughtBy": {
+    "$oid": "696e184937d927693eada2dd"
+  }
+}]

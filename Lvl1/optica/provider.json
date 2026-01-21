@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "696e168c37d927693eada2db"
+  },
+  "name": "Proveedor de prueba",
+  "nif": "F1111111111",
+  "phone": "111111111",
+  "adress": {
+    "street": "Calle prueba",
+    "city": "Barceprueba",
+    "country": "España"
+  }
+}]

@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "696e184937d927693eada2dd"
+  },
+  "email": "dani@vera.com",
+  "clientName": "Dani Vera",
+  "telephone": "619865391",
+  "registerDate": {
+    "$date": "2026-01-19T11:40:57.904Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696fcdc219537aeed8e3f1ec"
+  },
+  "clientName": "Xavier Inglada",
+  "email": "xavier@correo.com",
+  "telephone": "612345678",
+  "registerDate": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696fcdcb19537aeed8e3f1ee"
+  },
+  "clientName": "Andrés Aragoneses",
+  "email": "andres@correo.com",
+  "telephone": "623456789",
+  "registerDate": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  }
+}]
