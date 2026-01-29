@@ -1,0 +1,74 @@
+[
+  {
+    "_id": { "$oid": "696e17e437d927693eada2dc" },
+    "brand": "Rayban",
+    "frameType": "metallic",
+    "frameColor": "silver",
+    "graduation": { "L": 2.3, "R": 2.0 },
+    "glassColor": { "L": null, "R": null },
+    "price": 127.0,
+    "provider": {
+      "provider_id": { "$oid": "696e168c37d927693eada2db" },
+      "name": "Proveedor de prueba",
+      "nif": "F1111111111",
+      "phone": "111111111",
+      "fax": "111111112",
+      "adress": {
+        "street": "Calle prueba",
+        "number": "12",
+        "floor": "3",
+        "door": "A",
+        "city": "Barcelona",
+        "postalCode": "08001",
+        "country": "España"
+      }
+    },
+    "boughtBy": [
+      {
+        "clientId": { "$oid": "696e184937d927693eada2dd" },
+        "clientName": "Dani Vera",
+        "saleDate": "2026-01-20",
+        "employeeName": "Josep Maria"
+      },
+      {
+        "clientId": { "$oid": "696fcdc219537aeed8e3f1ec" },
+        "clientName": "Xavier Inglada",
+        "saleDate": "2026-01-20",
+        "employeeName": "Josep Maria"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "a11e17e437d927693eada3ff" },
+    "brand": "Google",
+    "frameType": "metallic",
+    "frameColor": "black",
+    "graduation": { "L": 1.5, "R": 1.5 },
+    "glassColor": { "L": "blue", "R": "blue" },
+    "price": 105.75,
+    "provider": {
+      "provider_id": { "$oid": "696e168c37d927693eada2db" },
+      "name": "Googles Associated SL",
+      "nif": "B22222222",
+      "phone": "222222222",
+      "fax": "222222223",
+      "adress": {
+        "street": "Tech Avenue",
+        "number": "1",
+        "floor": null,
+        "door": null,
+        "city": "Barcelona",
+        "postalCode": "08010",
+        "country": "España"
+      }
+    },
+    "boughtBy": [
+      {
+        "clientId": { "$oid": "696fcdcb19537aeed8e3f1ee" },
+        "clientName": "Andrés Aragoneses",
+        "saleDate": "2026-01-21",
+        "employeeName": "Josep Maria"
+      }
+    ]
+  }
+]

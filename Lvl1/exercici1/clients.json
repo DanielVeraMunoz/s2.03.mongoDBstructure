@@ -1,0 +1,54 @@
+[
+  {
+    "_id": { "$oid": "696e184937d927693eada2dd" },
+    "clientName": "Dani Vera",
+    "address": "Right Street, 123",
+    "telephone": "619865391",
+    "email": "dani@vera.com",
+    "registerDate": { "$date": "2026-01-19T11:40:57.904Z" },
+    "recommendedBy": null,
+    "lastShoppings": [
+      {
+        "glassId": { "$oid": "696e17e437d927693eada2dc" },
+        "brand": "Rayban",
+        "graduation": { "L": 2.3, "R": 2.0 },
+        "glassColor": { "L": null, "R": null },
+        "frameType": "metallic",
+        "price": 127.0,
+        "saleDate": "2026-01-20",
+        "employeeName": "Josep Maria"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "696fcdc219537aeed8e3f1ec" },
+    "clientName": "Xavier Inglada",
+    "address": "Carrer Mallorca, 45 2n 1a",
+    "telephone": "612345678",
+    "email": "xavier@correo.com",
+    "registerDate": { "$date": "2026-01-20T00:00:00.000Z" },
+    "recommendedBy": { "$oid": "696e184937d927693eada2dd" },
+    "lastShoppings": [
+      {
+        "glassId": { "$oid": "696e17e437d927693eada2dc" },
+        "brand": "Rayban",
+        "graduation": { "L": 2.3, "R": 2.0 },
+        "glassColor": { "L": null, "R": null },
+        "frameType": "metallic",
+        "price": 127.0,
+        "saleDate": "2026-01-20",
+        "employeeName": "Josep Maria"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "696fcdcb19537aeed8e3f1ee" },
+    "clientName": "Andrés Aragoneses",
+    "address": "Av. Diagonal, 200",
+    "telephone": "623456789",
+    "email": "andres@correo.com",
+    "registerDate": { "$date": "2026-01-20T00:00:00.000Z" },
+    "recommendedBy": null,
+    "lastShoppings": []
+  }
+]

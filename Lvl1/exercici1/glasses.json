@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "696e17e437d927693eada2dc" },
+    "brand": "Rayban",
+    "frameType": "metallic",
+    "frameColor": "silver",
+    "graduation": { "L": 2.3, "R": 2.0 },
+    "glassColor": { "L": null, "R": null },
+    "price": 127.0,
+    "providerId": { "$oid": "696e168c37d927693eada2db" }
+  },
+  {
+    "_id": { "$oid": "a11e17e437d927693eada3ff" },
+    "brand": "Google",
+    "frameType": "metallic",
+    "frameColor": "black",
+    "graduation": { "L": 1.5, "R": 1.5 },
+    "glassColor": { "L": "blue", "R": "blue" },
+    "price": 105.75,
+    "providerId": { "$oid": "b22e168c37d927693eada2db" }
+  }
+]
